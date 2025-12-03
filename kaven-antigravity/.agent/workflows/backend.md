@@ -1,5 +1,25 @@
+# PDR to Backend (schema.prisma Generator)
+
+> **Versão:** 2.0.0  
+> **Data:** 2024-12-03  
+> **Autor:** Chris + Claude Sonnet 4.5  
+> **Status:** Production Ready  
+> **Propósito:** Workflow Antigravity para gerar schema.prisma multi-tenant a partir de PDR Section 6
+
 ---
-description: "Kaven Phase 1.3 - Generate schema.prisma from PDR"
+
+## 📋 Metadata
+
+```yaml
+workflow_id: backend
+phase: pre-production
+step: 1.3
+input: PDR.md (Section 6)
+output: schema.prisma + backend_analysis.md
+estimated_time: 15-30 minutos
+prerequisites: PDR.md aprovado
+```
+
 ---
 
 # PDR to Backend

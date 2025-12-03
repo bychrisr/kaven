@@ -1,5 +1,25 @@
+# Schema to Contracts (tRPC + Zod Generator)
+
+> **Versão:** 2.0.0  
+> **Data:** 2024-12-03  
+> **Autor:** Chris + Claude Sonnet 4.5  
+> **Status:** Production Ready  
+> **Propósito:** Workflow Antigravity para gerar tRPC routers + Zod schemas com multi-tenancy awareness
+
 ---
-description: "Kaven Phase 1.4 - Generate tRPC contracts from PDR + schema"
+
+## 📋 Metadata
+
+```yaml
+workflow_id: contracts
+phase: pre-production
+step: 1.4
+input: schema.prisma
+output: tRPC routers + Zod schemas
+estimated_time: 20-40 minutos
+prerequisites: schema.prisma validado
+```
+
 ---
 
 # PDR to Contracts

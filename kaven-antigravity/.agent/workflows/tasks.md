@@ -1,5 +1,25 @@
+# PDR to Tasks (Implementation Plan Generator)
+
+> **Versão:** 2.0.0  
+> **Data:** 2024-12-03  
+> **Autor:** Chris + Claude Sonnet 4.5  
+> **Status:** Production Ready  
+> **Propósito:** Workflow Antigravity para gerar implementation_plan.json com tasks atômicas
+
 ---
-description: "Kaven Phase 1.6 - Generate cursor_tasks.json from PDR"
+
+## 📋 Metadata
+
+```yaml
+workflow_id: tasks
+phase: pre-production
+step: 1.5
+input: PDR.md (Section 13)
+output: implementation_plan.json + task_dependencies.md
+estimated_time: 30-60 minutos
+prerequisites: PDR + schema + contracts validados
+```
+
 ---
 
 # PDR to Tasks
